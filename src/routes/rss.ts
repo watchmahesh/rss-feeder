@@ -1,5 +1,5 @@
 import express from 'express';
-import validUrlType from '../Middleware/routeValidator'; // Import the validUrlType middleware
+import validUrlType from '../middleware/routeValidator'; // Import the validUrlType middleware
 
 const router = express.Router();
 import { getRSSFeed } from '../controller/rssController'
